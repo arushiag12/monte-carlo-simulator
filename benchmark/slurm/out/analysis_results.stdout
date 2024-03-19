@@ -1,0 +1,330 @@
+version: small, serial, time: 2.6
+-----------------------------------------------
+version: small, serial, time: 2.58
+-----------------------------------------------
+version: small, serial, time: 2.55
+-----------------------------------------------
+version: small, serial, time: 2.54
+-----------------------------------------------
+version: small, serial, time: 2.56
+-----------------------------------------------
+version: small, parallel num threads: 2, time: 1.48
+-----------------------------------------------
+version: small, parallel num threads: 2, time: 1.45
+-----------------------------------------------
+version: small, parallel num threads: 2, time: 1.47
+-----------------------------------------------
+version: small, parallel num threads: 2, time: 1.53
+-----------------------------------------------
+version: small, parallel num threads: 2, time: 1.41
+-----------------------------------------------
+version: small, parallel num threads: 4, time: 0.97
+-----------------------------------------------
+version: small, parallel num threads: 4, time: 0.9
+-----------------------------------------------
+version: small, parallel num threads: 4, time: 1.0
+-----------------------------------------------
+version: small, parallel num threads: 4, time: 0.99
+-----------------------------------------------
+version: small, parallel num threads: 4, time: 0.91
+-----------------------------------------------
+version: small, parallel num threads: 6, time: 0.84
+-----------------------------------------------
+version: small, parallel num threads: 6, time: 0.85
+-----------------------------------------------
+version: small, parallel num threads: 6, time: 0.89
+-----------------------------------------------
+version: small, parallel num threads: 6, time: 0.71
+-----------------------------------------------
+version: small, parallel num threads: 6, time: 0.8
+-----------------------------------------------
+version: small, parallel num threads: 8, time: 0.73
+-----------------------------------------------
+version: small, parallel num threads: 8, time: 0.68
+-----------------------------------------------
+version: small, parallel num threads: 8, time: 0.76
+-----------------------------------------------
+version: small, parallel num threads: 8, time: 0.8
+-----------------------------------------------
+version: small, parallel num threads: 8, time: 0.74
+-----------------------------------------------
+version: small, parallel num threads: 12, time: 0.72
+-----------------------------------------------
+version: small, parallel num threads: 12, time: 0.7
+-----------------------------------------------
+version: small, parallel num threads: 12, time: 0.68
+-----------------------------------------------
+version: small, parallel num threads: 12, time: 0.68
+-----------------------------------------------
+version: small, parallel num threads: 12, time: 0.77
+-----------------------------------------------
+version: small, work stealing num threads: 2, time: 1.59
+-----------------------------------------------
+version: small, work stealing num threads: 2, time: 1.44
+-----------------------------------------------
+version: small, work stealing num threads: 2, time: 1.46
+-----------------------------------------------
+version: small, work stealing num threads: 2, time: 1.52
+-----------------------------------------------
+version: small, work stealing num threads: 2, time: 1.46
+-----------------------------------------------
+version: small, work stealing num threads: 4, time: 0.91
+-----------------------------------------------
+version: small, work stealing num threads: 4, time: 0.88
+-----------------------------------------------
+version: small, work stealing num threads: 4, time: 0.87
+-----------------------------------------------
+version: small, work stealing num threads: 4, time: 0.85
+-----------------------------------------------
+version: small, work stealing num threads: 4, time: 0.87
+-----------------------------------------------
+version: small, work stealing num threads: 6, time: 0.78
+-----------------------------------------------
+version: small, work stealing num threads: 6, time: 0.75
+-----------------------------------------------
+version: small, work stealing num threads: 6, time: 0.77
+-----------------------------------------------
+version: small, work stealing num threads: 6, time: 0.78
+-----------------------------------------------
+version: small, work stealing num threads: 6, time: 0.78
+-----------------------------------------------
+version: small, work stealing num threads: 8, time: 0.67
+-----------------------------------------------
+version: small, work stealing num threads: 8, time: 0.65
+-----------------------------------------------
+version: small, work stealing num threads: 8, time: 0.7
+-----------------------------------------------
+version: small, work stealing num threads: 8, time: 0.7
+-----------------------------------------------
+version: small, work stealing num threads: 8, time: 0.64
+-----------------------------------------------
+version: small, work stealing num threads: 12, time: 0.62
+-----------------------------------------------
+version: small, work stealing num threads: 12, time: 0.64
+-----------------------------------------------
+version: small, work stealing num threads: 12, time: 0.64
+-----------------------------------------------
+version: small, work stealing num threads: 12, time: 0.61
+-----------------------------------------------
+version: small, work stealing num threads: 12, time: 0.63
+-----------------------------------------------
+version: medium, serial, time: 13.26
+-----------------------------------------------
+version: medium, serial, time: 13.29
+-----------------------------------------------
+version: medium, serial, time: 13.3
+-----------------------------------------------
+version: medium, serial, time: 13.38
+-----------------------------------------------
+version: medium, serial, time: 13.4
+-----------------------------------------------
+version: medium, parallel num threads: 2, time: 8.31
+-----------------------------------------------
+version: medium, parallel num threads: 2, time: 8.32
+-----------------------------------------------
+version: medium, parallel num threads: 2, time: 8.14
+-----------------------------------------------
+version: medium, parallel num threads: 2, time: 7.5
+-----------------------------------------------
+version: medium, parallel num threads: 2, time: 7.5
+-----------------------------------------------
+version: medium, parallel num threads: 4, time: 4.28
+-----------------------------------------------
+version: medium, parallel num threads: 4, time: 4.14
+-----------------------------------------------
+version: medium, parallel num threads: 4, time: 4.18
+-----------------------------------------------
+version: medium, parallel num threads: 4, time: 4.29
+-----------------------------------------------
+version: medium, parallel num threads: 4, time: 4.15
+-----------------------------------------------
+version: medium, parallel num threads: 6, time: 3.44
+-----------------------------------------------
+version: medium, parallel num threads: 6, time: 3.31
+-----------------------------------------------
+version: medium, parallel num threads: 6, time: 3.5
+-----------------------------------------------
+version: medium, parallel num threads: 6, time: 3.25
+-----------------------------------------------
+version: medium, parallel num threads: 6, time: 3.39
+-----------------------------------------------
+version: medium, parallel num threads: 8, time: 2.84
+-----------------------------------------------
+version: medium, parallel num threads: 8, time: 2.86
+-----------------------------------------------
+version: medium, parallel num threads: 8, time: 2.66
+-----------------------------------------------
+version: medium, parallel num threads: 8, time: 2.6
+-----------------------------------------------
+version: medium, parallel num threads: 8, time: 2.69
+-----------------------------------------------
+version: medium, parallel num threads: 12, time: 2.38
+-----------------------------------------------
+version: medium, parallel num threads: 12, time: 2.31
+-----------------------------------------------
+version: medium, parallel num threads: 12, time: 2.42
+-----------------------------------------------
+version: medium, parallel num threads: 12, time: 2.38
+-----------------------------------------------
+version: medium, parallel num threads: 12, time: 2.44
+-----------------------------------------------
+version: medium, work stealing num threads: 2, time: 7.37
+-----------------------------------------------
+version: medium, work stealing num threads: 2, time: 7.25
+-----------------------------------------------
+version: medium, work stealing num threads: 2, time: 7.18
+-----------------------------------------------
+version: medium, work stealing num threads: 2, time: 7.1
+-----------------------------------------------
+version: medium, work stealing num threads: 2, time: 6.97
+-----------------------------------------------
+version: medium, work stealing num threads: 4, time: 4.18
+-----------------------------------------------
+version: medium, work stealing num threads: 4, time: 4.19
+-----------------------------------------------
+version: medium, work stealing num threads: 4, time: 4.3
+-----------------------------------------------
+version: medium, work stealing num threads: 4, time: 4.18
+-----------------------------------------------
+version: medium, work stealing num threads: 4, time: 4.1
+-----------------------------------------------
+version: medium, work stealing num threads: 6, time: 3.21
+-----------------------------------------------
+version: medium, work stealing num threads: 6, time: 3.22
+-----------------------------------------------
+version: medium, work stealing num threads: 6, time: 3.27
+-----------------------------------------------
+version: medium, work stealing num threads: 6, time: 3.27
+-----------------------------------------------
+version: medium, work stealing num threads: 6, time: 3.33
+-----------------------------------------------
+version: medium, work stealing num threads: 8, time: 2.86
+-----------------------------------------------
+version: medium, work stealing num threads: 8, time: 2.67
+-----------------------------------------------
+version: medium, work stealing num threads: 8, time: 2.77
+-----------------------------------------------
+version: medium, work stealing num threads: 8, time: 2.83
+-----------------------------------------------
+version: medium, work stealing num threads: 8, time: 2.78
+-----------------------------------------------
+version: medium, work stealing num threads: 12, time: 2.2
+-----------------------------------------------
+version: medium, work stealing num threads: 12, time: 2.11
+-----------------------------------------------
+version: medium, work stealing num threads: 12, time: 2.24
+-----------------------------------------------
+version: medium, work stealing num threads: 12, time: 2.33
+-----------------------------------------------
+version: medium, work stealing num threads: 12, time: 2.21
+-----------------------------------------------
+version: large, serial, time: 27.62
+-----------------------------------------------
+version: large, serial, time: 27.25
+-----------------------------------------------
+version: large, serial, time: 27.54
+-----------------------------------------------
+version: large, serial, time: 27.38
+-----------------------------------------------
+version: large, serial, time: 27.66
+-----------------------------------------------
+version: large, parallel num threads: 2, time: 15.36
+-----------------------------------------------
+version: large, parallel num threads: 2, time: 15.41
+-----------------------------------------------
+version: large, parallel num threads: 2, time: 15.88
+-----------------------------------------------
+version: large, parallel num threads: 2, time: 15.61
+-----------------------------------------------
+version: large, parallel num threads: 2, time: 15.69
+-----------------------------------------------
+version: large, parallel num threads: 4, time: 9.98
+-----------------------------------------------
+version: large, parallel num threads: 4, time: 10.2
+-----------------------------------------------
+version: large, parallel num threads: 4, time: 10.48
+-----------------------------------------------
+version: large, parallel num threads: 4, time: 10.76
+-----------------------------------------------
+version: large, parallel num threads: 4, time: 10.36
+-----------------------------------------------
+version: large, parallel num threads: 6, time: 8.58
+-----------------------------------------------
+version: large, parallel num threads: 6, time: 8.47
+-----------------------------------------------
+version: large, parallel num threads: 6, time: 8.44
+-----------------------------------------------
+version: large, parallel num threads: 6, time: 8.17
+-----------------------------------------------
+version: large, parallel num threads: 6, time: 8.5
+-----------------------------------------------
+version: large, parallel num threads: 8, time: 7.6
+-----------------------------------------------
+version: large, parallel num threads: 8, time: 7.6
+-----------------------------------------------
+version: large, parallel num threads: 8, time: 7.94
+-----------------------------------------------
+version: large, parallel num threads: 8, time: 7.75
+-----------------------------------------------
+version: large, parallel num threads: 8, time: 7.83
+-----------------------------------------------
+version: large, parallel num threads: 12, time: 5.83
+-----------------------------------------------
+version: large, parallel num threads: 12, time: 6.13
+-----------------------------------------------
+version: large, parallel num threads: 12, time: 5.15
+-----------------------------------------------
+version: large, parallel num threads: 12, time: 5.54
+-----------------------------------------------
+version: large, parallel num threads: 12, time: 5.43
+-----------------------------------------------
+version: large, work stealing num threads: 2, time: 17.04
+-----------------------------------------------
+version: large, work stealing num threads: 2, time: 16.79
+-----------------------------------------------
+version: large, work stealing num threads: 2, time: 16.95
+-----------------------------------------------
+version: large, work stealing num threads: 2, time: 16.82
+-----------------------------------------------
+version: large, work stealing num threads: 2, time: 16.68
+-----------------------------------------------
+version: large, work stealing num threads: 4, time: 9.9
+-----------------------------------------------
+version: large, work stealing num threads: 4, time: 9.84
+-----------------------------------------------
+version: large, work stealing num threads: 4, time: 9.98
+-----------------------------------------------
+version: large, work stealing num threads: 4, time: 10.12
+-----------------------------------------------
+version: large, work stealing num threads: 4, time: 10.14
+-----------------------------------------------
+version: large, work stealing num threads: 6, time: 7.94
+-----------------------------------------------
+version: large, work stealing num threads: 6, time: 7.62
+-----------------------------------------------
+version: large, work stealing num threads: 6, time: 7.41
+-----------------------------------------------
+version: large, work stealing num threads: 6, time: 7.4
+-----------------------------------------------
+version: large, work stealing num threads: 6, time: 7.58
+-----------------------------------------------
+version: large, work stealing num threads: 8, time: 6.51
+-----------------------------------------------
+version: large, work stealing num threads: 8, time: 6.37
+-----------------------------------------------
+version: large, work stealing num threads: 8, time: 6.47
+-----------------------------------------------
+version: large, work stealing num threads: 8, time: 6.56
+-----------------------------------------------
+version: large, work stealing num threads: 8, time: 6.42
+-----------------------------------------------
+version: large, work stealing num threads: 12, time: 5.79
+-----------------------------------------------
+version: large, work stealing num threads: 12, time: 5.82
+-----------------------------------------------
+version: large, work stealing num threads: 12, time: 5.83
+-----------------------------------------------
+version: large, work stealing num threads: 12, time: 5.74
+-----------------------------------------------
+version: large, work stealing num threads: 12, time: 5.7
+-----------------------------------------------
