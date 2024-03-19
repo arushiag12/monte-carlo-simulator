@@ -114,7 +114,7 @@ $ go run ./driver/driver.go <input> <mode> <numThreads>
 
 where  $\text{<input>}$  is the name of the JSON file in the data subdirectory. The inputs used in the experiment are in the files small.json, medium.json, and large.json in the data subdirectory. To use either of them, the usage is:
 
-```json
+```bash
 Usage: driver <data_size> <mode> <number of threads>
 data_size = (big) functions with big sized domains, (medium) functions with medium
 sized domains, (small) functions with small sized domains
