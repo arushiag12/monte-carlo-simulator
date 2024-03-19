@@ -33,7 +33,10 @@ The inputs are the polynomial functions to be evaluated and their specified doma
 }
 ```
 In this example, this input is modeling the polynomial 
+
 $$ 0.5x^3 + 0.5y^3 + 1.0x^2y + .0xy^2 + 2.0x^2 + 2.0y^2 + 3.0xy + 4.0x + 4.0y + 5.0 $$
+0.5x<sup>3</sup> + 0.5y<sup>3</sup> + 1.0x<sup>2</sup>y + .0xy<sup>2</sup> + 2.0x<sup>2</sup> + 2.0y<sup>2</sup> + 3.0xy + 4.0x + 4.0y + 5.0
+
 in the range $-10.0<x<10.0$ and $-10.0<y<10.0$.
 
 ### Simulation
