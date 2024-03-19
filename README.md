@@ -108,7 +108,7 @@ After completing the computation, the program consolidates the minimum values ob
 
 ### Running the Program
 
-To run the program, put the inputs as JSON objects into a JSON file and place it in the proj3/data directory. Then run the following from the terminal from inside the proj3 directory:
+To run the program, put the inputs as JSON objects into a JSON file and place it in the data subdirectory. Then run the following from the terminal from the root directory:
 
 ```bash
 $ go run ./driver/driver.go <input> <mode> <numThreads>
@@ -134,7 +134,7 @@ execute the program in seconds.
 
 The experiment involves three input files: small.json, medium.json, and large.json. The nomenclature of these files corresponds to the size of the domains on which each of the 10 functions within them are to be evaluated. Consequently, as the domain size increases, the number of packaged tasks generated also increases. For each of the three input files, the experiment runs in one of three modes: sequential (s), parallel (p), or work-stealing parallel (w). The two parallel implementations, denoted as p and w, are executed with the number of threads set to 2, 4, 6, 8, and 12. Each iteration is repeated five times, and the resulting times are averaged over these five runs to provide more reliable data for analysis.
 
-To automate the experiment, the following command is executed from within the proj3 directory:
+To automate the experiment, the following command is executed from the root directory:
 
 ```bash
 $ sbatch ./benchmark/performance-analysis.sh
