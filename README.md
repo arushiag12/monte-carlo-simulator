@@ -114,7 +114,7 @@ To run the program, put the inputs as JSON objects into a JSON file and place it
 $ go run ./driver/driver.go <input> <mode> <numThreads>
 ```
 
-where <input> is the name of the JSON file in the data subdirectory. The inputs used in the experiment are in the files small.json, medium.json, and large.json in the data subdirectory. To use either of them, the usage is:
+where `<input>` is the name of the JSON file in the data subdirectory. The inputs used in the experiment are in the files small.json, medium.json, and large.json in the data subdirectory. To use either of them, the usage is:
 
 ```shell
 Usage: driver <data_size> <mode> <number of threads>
@@ -126,7 +126,7 @@ number of threads = number of threads to spawn in p or w mode (not required for
 mode s)
 ```
 
-The result of the program, which is the minima of the evaluated inputs, will be stored in a results_<input>.json file in the data subdirectory and the output of the program will be the time taken to
+The result of the program, which is the minima of the evaluated inputs, will be stored in a results_`<input>`.json file in the data subdirectory and the output of the program will be the time taken to
 execute the program in seconds.
 
 ## Experiment
