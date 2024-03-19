@@ -126,7 +126,7 @@ number of threads = number of threads to spawn in p or w mode (not required for
 mode s)
 ```
 
-The result of the program, which is the minima of the evaluated inputs, will be stored in a results_`<input>`.json file in the data subdirectory and the output of the program will be the time taken to
+The result of the program, which is the minima of the evaluated inputs, will be stored in a `results_<input>.json` file in the data subdirectory and the output of the program will be the time taken to
 execute the program in seconds.
 
 ## Experiment
