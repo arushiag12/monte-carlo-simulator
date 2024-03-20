@@ -1,21 +1,24 @@
 package queue 
 
 import (
-	"proj3-redesigned/function"
+	"proj/function"
 	"sync/atomic"
 )
 
+// Node struct for queue
 type Node struct {
 	task *function.Task
 	next *Node
 	prev *Node
 }
 
+// Queue struct with atomic pointers for thread safety
 type Queue struct {
 	bottom atomic.Pointer[Node]
 	top atomic.Pointer[Node]
 }
 
+// Creates a new queue
 func NewQueue() *Queue {
 	q := &Queue{}
 	q.bottom.Store(nil)
@@ -23,6 +26,7 @@ func NewQueue() *Queue {
 	return q
 }
 
+// Adds a task to the top of the queue
 func (q *Queue) PushTop(task *function.Task) {
 	node := &Node{task: task, next: nil, prev: nil}
 	if q.bottom.Load() == nil {
@@ -35,6 +39,7 @@ func (q *Queue) PushTop(task *function.Task) {
 	}
 }
 
+// Removes a task from the bottom of the queue
 func (q *Queue) PopBottom() *function.Task {
 	if q.bottom.Load() == nil {
 		return nil
@@ -44,10 +49,12 @@ func (q *Queue) PopBottom() *function.Task {
 	return task
 }
 
+// Returns boolean indicating if the queue is empty
 func (q *Queue) IsEmpty() bool {
 	return q.bottom.Load() == nil
 }
 
+// Tries to remove a task from the top of the queue in a thread-safe manner and returns it if successful, otherwise returns nil
 func (q *Queue) PopTop() *function.Task {
 	if q.IsEmpty() {
 		return nil

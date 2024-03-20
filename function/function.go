@@ -6,36 +6,23 @@ import (
 	"os"
 )
 
+// Structs for function parameters and domain
+
 type FunctionParameters struct {
-	Cx3 float32
-	Cy3 float32 
-	Cx2y float32
-	Cxy2 float32
-	Cx2 float32
-	Cy2 float32
-	Cxy float32
-	Cx float32
-	Cy float32
-	C float32
-	Min_x float32
-	Max_x float32
-	Min_y float32
-	Max_y float32
+    Cx3, Cy3, Cx2y, Cxy2, Cx2, Cy2, Cxy, Cx, Cy, C, Min_x, Max_x, Min_y, Max_y float32
 }
 
 type Domain struct {
-	Min_x float32
-	Max_x float32
-	Min_y float32
-	Max_y float32
+    Min_x, Max_x, Min_y, Max_y float32
 }
 
 type FuncInfo struct {
-	Func func(float32, float32) float32
-	Dom Domain
-	Min float32
+    Func func(float32, float32) float32
+    Dom Domain
+    Min float32
 }
 
+// Reads function info from a JSON file
 func ExtractFuncInfo (DataSize string) *[]FuncInfo {
 	dataPathFile := "./data/" + DataSize + ".json"
 	effectsFile, err := os.Open(dataPathFile)
@@ -64,6 +51,8 @@ func ExtractFuncInfo (DataSize string) *[]FuncInfo {
 	return &funcsInfo
 }
 
+// Helper functions to create new instances of structs
+
 func NewFunctionParameters () *FunctionParameters {
 	return &FunctionParameters{Cx3: 0, Cy3: 0, Cx2y: 0, Cxy2: 0, Cx2: 0, Cy2: 0, Cxy: 0, Cx: 0, Cy: 0, C: 0, Min_x: 0, Max_x: 0, Min_y: 0, Max_y: 0}
 }
@@ -79,6 +68,7 @@ func NewDomain (p *FunctionParameters) Domain {
 	return Domain{p.Min_x, p.Max_x, p.Min_y, p.Max_y}
 }
 
+// Returns a new FuncInfo struct
 func NewFuncInfo (p *FunctionParameters) FuncInfo {
 	return FuncInfo{NewFunction(p), NewDomain(p), 0}
 }

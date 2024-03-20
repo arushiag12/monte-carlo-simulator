@@ -1,3 +1,3 @@
-module proj3-redesigned
+module proj
 
 go 1.19
